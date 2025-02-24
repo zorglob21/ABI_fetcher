@@ -3,7 +3,7 @@ This is a python module aiming to allow the user to quickly fetch any ABI from a
 Run it:
 input a network name amongst those listed. If the network isn't listed, you can try inputing the beginning of the explorer API Url like this:
 
-*https://api.etherscan.io/v2/api*
+* https://api.etherscan.io/v2/api *
    ?chainid=1
    &module=contract
    &action=getabi
