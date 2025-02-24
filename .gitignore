@@ -1,3 +1,4 @@
 .env
 /venv
 ABI/
+!ABI/readme.txt
