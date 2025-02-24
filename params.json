@@ -1,0 +1,19 @@
+{
+    "ethereum":"https://api.etherscan.io/api",
+    "holesky" : "",
+    "sepolia": "https://api-sepolia.etherscan.io/api",
+    "base" : "https://api.basescan.org/api",
+    "base_sepolia" : "https://api-sepolia.basescan.org/api",
+    "arbitrum" : "https://api.arbiscan.io/api",
+    "arbitrum_goerli" : "https://api-goerli.arbiscan.io/api",
+    "arbitrum_sepolia" : "https://api-sepolia.arbiscan.io/api",
+    "avax" : "https://api.routescan.io/v2/network/mainnet/evm/43114/etherscan/api",
+    "avax_testnet" : "https://api.routescan.io/v2/network/testnet/evm/43114/etherscan/api",
+    "bsc" : "https://api.bscscan.com/api",
+    "bsc_testnet" : "https://api-testnet.bscscan.com/api",
+    "sonic":"https://api.sonicscan.org/api",
+    "sonic_testnet" : "https://api-testnet.sonicscan.org/api",
+    "polygon" : "https://api.polygonscan.com/api",
+    "polygon_testnet" : "https://api-amoy.polygonscan.com/api"
+
+}
