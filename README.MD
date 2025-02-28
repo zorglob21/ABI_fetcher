@@ -15,8 +15,8 @@ abi-fetch fetch --contract 0xXXXXXX --network "base mainnet" --api-key XXXXXXXXX
 
 If you are unsure about the network name you can browse the abi_fetcher/chainlist.json file to search via chain ID. If the network isn't listed, you can either add a network entry into the json abi_fetcher/chainlist.json or try inputing the beginning of the explorer API Url like this :
 
-* https://api.etherscan.io/v2/api 
-   ?chainid=1 *
+*https://api.etherscan.io/v2/api
+   ?chainid=1*
    &module=contract
    &action=getabi
    &address=0xBB9bc244D798123fDe783fCc1C72d3Bb8C189413
