@@ -1,4 +1,3 @@
-from web3 import Web3
 import requests
 import json
 import os
@@ -10,7 +9,7 @@ class ABIFetcher:
         base_dir = os.path.dirname(os.path.abspath(__file__))  # Get the script's directory
         chainlist_file = os.path.join(base_dir, "chainlist.json")  # Build full path
         self.networks = self.load_networks(chainlist_file)
-
+        
     def load_networks(self,json_file):
         with open(json_file, 'r') as file:
             return json.load(file)

@@ -2,9 +2,9 @@ from setuptools import setup, find_packages
 
 setup(
     name="abi-fetcher",
-    version="0.1.0",
+    version="0.1.24",
     packages=find_packages(),
-    install_requires=[
+    install_requires=["requests"
     ],
     entry_points={
         "console_scripts": [
@@ -12,14 +12,17 @@ setup(
         ],
     },
     author="Yann Neve",
+    package_data={
+        # Include the JSON file inside the package
+        'abi_fetcher': ['chainlist.json', 'README.md']},
     author_email="neve.yann@gmail.com",
     description="A Python package to fetch smart contract ABIs from all EVM compatible blockchains",
-    long_description=open("README.MD").read(),
+    long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
     url="https://github.com/zorglob21/ABI_fetcher",
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: Apache 2.0",
+        "License :: OSI Approved :: Apache Software License",
         "Operating System :: OS Independent",
     ],
     python_requires=">=3.7",

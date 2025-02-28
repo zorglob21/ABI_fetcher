@@ -23,8 +23,9 @@ def fetch_abi(contract_address, network, api_key, output_dir="ABI"):
 
 def display_help():
     """Displays help by printing README.md contents if available."""
-    readme_path = os.path.join(os.path.dirname(__file__), "../README.md")
-
+    base_dir = os.path.dirname(os.path.abspath(__file__)) 
+    readme_path = os.path.join(base_dir, "README.md")
+    print('path utilisé',readme_path)
     if os.path.exists(readme_path):
         with open(readme_path, "r", encoding="utf-8") as f:
             print(f.read())  # ✅ Prints README.md content
