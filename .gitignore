@@ -4,4 +4,4 @@ ABI/*
 !ABI/readme.txt
 requirements.txt
 /abi_fetcher.egg*
-pypirc
+pypirc*
