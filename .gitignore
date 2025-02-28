@@ -1,4 +1,6 @@
-.env
 /venv
+__pycache__/
 ABI/*
 !ABI/readme.txt
+requirements.txt
+/abi_fetcher.egg*
