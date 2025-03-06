@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="abi-fetcher",
-    version="0.1.25",
+    version="0.0.01",
     packages=find_packages(),
     install_requires=["requests"
     ],
@@ -15,7 +15,7 @@ setup(
     package_data={
         # Include the JSON file inside the package
         'abi_fetcher': ['chainlist.json', 'README.md']},
-    author_email="neve.yann@gmail.com",
+    author_email="yann.solidity@gmail.com",
     description="A Python package to fetch smart contract ABIs from all EVM compatible blockchains",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",

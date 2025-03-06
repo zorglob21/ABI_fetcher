@@ -1,5 +1,7 @@
 This is a python module aiming to allow the user to quickly fetch any ABI from a verified smartcontract on any EVM compatible blockchain.
 
+This is a beta version, improvements might be added over time. if you notice anything not working appropriately or have any suggestions, feel free to report them.
+
 commands:<br>
 abi-fetcher help or h => display this message<br>
 abi-fetcher list => display all available networks<br>
