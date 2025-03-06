@@ -11,7 +11,7 @@ abi-fetcher fetch --contract xxx --network xxx --api-key xxx --output xxx<br>
 --output(optional) = output directory for the generated ABI. Default directory is /ABI from the root<br>
 
 example :
-abi-fetch fetch --contract 0xXXXXXX --network "base mainnet" --api-key XXXXXXXXXXXX
+abi-fetcher fetch --contract 0xXXXXXX --network "base mainnet" --api-key XXXXXXXXXXXX
 
 If you are unsure about the network name you can browse the abi_fetcher/chainlist.json file to search via chain ID. If the network isn't listed, you can either add a network entry into the json abi_fetcher/chainlist.json or try inputing the beginning of the explorer API Url like this :
 

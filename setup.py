@@ -2,13 +2,13 @@ from setuptools import setup, find_packages
 
 setup(
     name="abi-fetcher",
-    version="0.1.24",
+    version="0.1.25",
     packages=find_packages(),
     install_requires=["requests"
     ],
     entry_points={
         "console_scripts": [
-            "abi-fetch=abi_fetcher.client:main",  # Optional CLI
+            "abi-fetcher=abi_fetcher.client:main",  # Optional CLI
         ],
     },
     author="Yann Neve",
