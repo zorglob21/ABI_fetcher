@@ -15,7 +15,7 @@ setup(
     package_data={
         # Include the JSON file inside the package
         'abi_fetcher': ['chainlist.json', 'README.md']},
-    author_email="yann.solidity@gmail.com",
+    author_email="yann.nx321.subprime216@simplelogin.com",
     description="A Python package to fetch smart contract ABIs from all EVM compatible blockchains",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
